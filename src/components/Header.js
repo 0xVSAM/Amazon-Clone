@@ -49,7 +49,7 @@ const Header = () => {
                         Account & Lists
                     </p>
                 </div>
-                <div className='link'>
+                <div onClick={() => router.push('/orders')} className='link'>
                     <p>
                         Returns 
                     </p>
